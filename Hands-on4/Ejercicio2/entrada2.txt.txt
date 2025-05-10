@@ -1,0 +1,6 @@
+entrada2.txt
+int a;
+int b;
+a = b;
+a = c;
+b = a;

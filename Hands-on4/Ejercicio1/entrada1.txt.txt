@@ -1,0 +1,4 @@
+entrada1.txt
+int a;
+a;
+b;

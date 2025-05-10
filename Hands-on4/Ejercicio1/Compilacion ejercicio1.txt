@@ -1,0 +1,5 @@
+Comandos para compilar el codigo
+bison -d parser.y
+flex scanner.l
+gcc -o verificador_ids parser.tab.c lex.yy.c -lfl
+./verificador_ids < entrada1.txt

@@ -1,0 +1,4 @@
+bison -d parser.y
+flex scanner.l
+gcc -o verificador_funciones parser.tab.c lex.yy.c -lfl
+./verificador_funciones < entrada3.txt
